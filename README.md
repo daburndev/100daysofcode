@@ -11,7 +11,7 @@ https://www.udemy.com/course/the-web-developer-bootcamp/#instructor-1
 
 Facebook : https://facebook.com/daburndev
 <br>
-Instagram : https://instagram.com/daburndev
+Instagram : https://instagram.com/daburndevlog
 <br>
 GitHub : https://github.com/daburndev/100daysofcode
 <br>
