@@ -16,3 +16,7 @@ Instagram : https://instagram.com/daburndevlog
 GitHub : https://github.com/daburndev/100daysofcode
 <br>
 LinkedIn : https://linkedin.com/in/kyawswarminlwin
+
+# Timeframe
+
+Day 1-3 : HTML
