@@ -17,7 +17,7 @@ GitHub : https://github.com/daburndev/100daysofcode
 <br>
 LinkedIn : https://linkedin.com/in/kyawswarminlwin
 
-# Timeframe
+# Timeline
 
 Day 1 - 3   : HTML <br>
 Day 4 - 8   : CSS <br>
