@@ -19,5 +19,6 @@ LinkedIn : https://linkedin.com/in/kyawswarminlwin
 
 # Timeframe
 
-Day 1-3 : HTML <br>
-Day 4-  : CSS
+Day 1 - 3   : HTML <br>
+Day 4 - 8   : CSS <br>
+Day 9       : Bootstrap <br>     
