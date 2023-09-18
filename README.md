@@ -23,3 +23,4 @@ Day 1 - 3   : HTML <br>
 Day 4 - 8   : CSS <br>
 Day 9 - 10     : Responsive Pricing Panel Project (HTML,CSS) & Bootstrap <br>     
 Day 11         : Bootstrap (Museum Of Candy Project) <br>
+Day 12 -       : Javascript <br>
