@@ -15,7 +15,7 @@ Here we are , the first programming lanugage after HTML,CSS. <br>
 </ul>
 
 *Techinally There are two others: Symbol and BigInt<br>
-Type Javascript in console of CHrome browswer <br>
+Type Javascript in console of Chrome browswer <br>
 
 <h4>Numbers in Javascript </h4>
 <ul>
@@ -25,6 +25,7 @@ Type Javascript in console of CHrome browswer <br>
     <li>Whole numbers(integers)</li>
     <li>Decimal numbers</li>
 </ul>
+<hr>
 
 <h4>Variables</h4>
 <p>Variables are like labels for values</p>
