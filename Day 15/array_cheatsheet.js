@@ -13,3 +13,8 @@ colors.length; //3
 
 //unshift(val) - adds value to START of an array
 //shift() - removes and returns first element in an array
+
+let cats = ['blue', 'kitty'];
+let dogs = ['rusty', 'wyatt'];
+
+cats.concat(dogs)
