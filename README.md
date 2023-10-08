@@ -15,6 +15,8 @@ Instagram : https://instagram.com/daburndevlog
 <br>
 GitHub : https://github.com/daburndev/100daysofcode
 <br>
+Twitter : https://x.com/daburndev
+<br>
 LinkedIn : https://linkedin.com/in/kyawswarminlwin
 
 # Timeline
