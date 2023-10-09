@@ -1,16 +1,17 @@
 const p1 = {
+    name: 'Player 1',
     score: 0,
     button: document.querySelector('#p1Button'),
     display: document.querySelector('#p1Display')
 }
 
 const p2 = {
+    name: 'Player 2',
     score: 0,
     button: document.querySelector('#p2Button'),
     display: document.querySelector('#p2Display')
 }
-
-
+const winner = document.querySelector('#winner')
 const resetButton = document.querySelector('#reset');
 const winningScoreSelect = document.querySelector('#playto');
 
@@ -23,10 +24,11 @@ function updateScores(player, opponent){
         player.score += 1;
         if(player.score === winningScore){
             isGameOver = true;
-            player.display.classList.add('has-text-success');
+            player.display.classList.add('shas-text-success');
             opponent.display.classList.add('has-text-danger');
             player.button.disabled = true;
             opponent.button.disabled = true;
+            winner.textContent= `Winner : ${player.name}`
         }
         player.display.textContent = player.score;
     }
@@ -62,6 +64,7 @@ function reset(){
         p.display.classList.remove('has-text-success','has-text-danger');
         p.button.disabled = false;
     }
+    winner.textContent = 'Winner :'
 }
 
 
