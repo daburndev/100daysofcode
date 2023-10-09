@@ -22,6 +22,7 @@ let isGameOver = false;
 function updateScores(player, opponent){
     if(!isGameOver){
         player.score += 1;
+        winner.textContent = 'Game has started';
         if(player.score === winningScore){
             isGameOver = true;
             player.display.classList.add('shas-text-success');
@@ -64,7 +65,7 @@ function reset(){
         p.display.classList.remove('has-text-success','has-text-danger');
         p.button.disabled = false;
     }
-    winner.textContent = 'Winner :'
+    winner.textContent = 'Ready to Start'
 }
 
 
