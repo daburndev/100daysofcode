@@ -27,7 +27,7 @@ const getDadJoke = async () => {
 };
 
 buttonJoke.addEventListener("click", addNewJoke);
-buttonBTC.addEventListener("click", addBTC);
+
 
 
 const priceOfBTC = async () =>{
@@ -39,4 +39,5 @@ const priceOfBTC = async () =>{
   }
 };
 
+buttonBTC.addEventListener("click", addBTC);
 
