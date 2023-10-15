@@ -1,10 +1,18 @@
 const jokes = document.querySelector("#jokes");
-const button = document.querySelector("button");
+const buttonJoke = document.querySelector("#joke");
+const buttonBTC = document.querySelector("#BTC");
 
 const addNewJoke = async () => {
   const jokeText = await getDadJoke();
   const newLI = document.createElement("LI");
   newLI.append(jokeText);
+  jokes.append(newLI);
+};
+
+const addBTC = async () => {
+  const priceBTC = await priceOfBTC();
+  const newLI = document.createElement("LI");
+  newLI.append(priceBTC);
   jokes.append(newLI);
 };
 
@@ -18,4 +26,17 @@ const getDadJoke = async () => {
   }
 };
 
-button.addEventListener("click", addNewJoke);
+buttonJoke.addEventListener("click", addNewJoke);
+buttonBTC.addEventListener("click", addBTC);
+
+
+const priceOfBTC = async () =>{
+  try{
+    const res = await axios.get('http://api.coinlayer.com/api/live?access_key=759e33b51225e703b685637ea35cf072');
+    return res.data.rates.BTC;
+  } catch (e) {
+    return "NO BTC PRICE! SORRY :(";
+  }
+};
+
+
