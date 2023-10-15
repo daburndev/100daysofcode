@@ -9,12 +9,7 @@ const addNewJoke = async () => {
   jokes.append(newLI);
 };
 
-const addBTC = async () => {
-  const priceBTC = await priceOfBTC();
-  const newLI = document.createElement("LI");
-  newLI.append(priceBTC);
-  jokes.append(newLI);
-};
+
 
 const getDadJoke = async () => {
   try {
@@ -28,7 +23,12 @@ const getDadJoke = async () => {
 
 buttonJoke.addEventListener("click", addNewJoke);
 
-
+const addBTC = async () => {
+  const priceBTC = await priceOfBTC();
+  const newLI = document.createElement("LI");
+  newLI.append(priceBTC);
+  jokes.append(newLI);
+};
 
 const priceOfBTC = async () =>{
   try{
