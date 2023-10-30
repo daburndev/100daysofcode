@@ -2,5 +2,4 @@
 
 
 # Introduction to CS50
-
-# Prototypes, Classes, & OOP
+# Week 0  Scratch
