@@ -27,4 +27,5 @@ Day 9 - 10      : Responsive Pricing Panel Project (HTML,CSS) & Bootstrap <br>
 Day 11          : Bootstrap (Museum Of Candy Project) <br>
 Day 12 - 16     : Javascript <br>
 Day 17 - 19    : Code along Discord-clone with Next.js,React,Socket.io,Prisma,Tailwind,MySql<br>
-Day 20 -       : Javascript <br>
+Day 20 - 30      : Javascript <br>
+Day 31 -          : npm, nodejs, express <br>
